@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Basic JavaScript</h1>
+    <br>
+    <h2>Introduction:</h2>
+    <p>JavaScript is the World's most popular programming language.</p>
+    <p>It is the programming language of the Web.</p>
+    <p>It is easy to learn.</p>
+    <p>It is often abbreviated as JS.</p>
+    <p>About 98% of the websites use JavaScript on the client side for webpage behaviour.</p>
+    <br>
+    <h2>Why study JavaScript?</h2>
+    <p>JavaScript is one of the 3 languages all web developers must learn:</p>
+    <ul>
+        <li><u>HTML</u>: to define the structure of web pages.</li>
+        <li><u>CSS</u>: to specify the layout or design of web pages.</li>
+        <li><u>JavaScript</u>: to adding functionality to web pages.</li>
+    </ul>
+    <br>
+    <h2>How JavaScript Works?</h2>
+    <p>JavaScript is a synchronous single-threaded language.</p>
+    <p>It is a high level, often just-in-time compiled language.</p>
+    <p>Everything in JavaScript happens inside an execution context.</p>
+    <p>Whenever JavaScript code runs, a execution context will be created.</p>
+    <p>It has only one call stack.</p>
+    <p>JavaScript only run on JavaScript Engines.</p>
+    <p>JavaScript codes were only run inside web browsers, but now it will run outside the browsers.</p>
+    <br>
+    <h2>Versions</h2>
+    <ul>
+        <li>ECMAScript 1 - ES1</li>
+        <li>ECMAScript 2 - ES2</li>
+        <li>ECMAScript 3 - ES3</li>
+        <li>ECMAScript 4 - ES4</li>
+        <li>ECMAScript 5 - ES5</li>
+        <li>ECMAScript 2015 - ES6</li>
+        <li>ECMAScript 2016 - ES</li>
+        <li>ECMAScript 2017 - ES</li>
+        <li>ECMAScript 2018 - ES</li>
+    </ul>
+    <p>The original JavaScript is ES1, ES2 ans ES3. The first main revision is ES5 and the second revision is ES6. After
+        that, yearly additions are 2016, 2017 and 2018.</p>
+    <br>
+    <h2>How JavaScript Execute?</h2>
+    <p>JavaScript is a synchronous (Moves to the next line only when the execution of the current line is completed) and
+        single-threaded (Executes one command at a time in a specific order one after another serially) language. To
+        know behind the scene of how JavaScript code gets executed internally, we have to know something called
+        Execution Context and its role in the execution of JavaScript code.</p>
+    <h4>Execution Context: </h4>
+    <p>Everything in JavaScript is wrapped inside Execution Context, which is an abstract concept (can be treated as a
+        container) that holds the whole information about the environment within which the current JavaScript code is
+        being executed.</p>
+    <p>Now, an Execution Context has two components and JavaScript code gets executed in two phases.</p>
+    <ul>
+        <li><u>Memory Allocation Phase</u>: In this phase, all the functions and variables of the JavaScript code get
+            stored as
+            a key-value pair inside the memory component of the execution context. In the case of a function, JavaScript
+            copied the whole function into the memory block but in the case of variables, it assigns undefined as a
+            placeholder.</li>
+        <li><u>Code Execution Phase</u>: In this phase, the JavaScript code is executed one line at a time inside the
+            Code
+            Component (also known as the Thread of execution) of Execution Context. </li>
+    </ul>
+    <h4>Call Stack: </h4>
+    <p>When a program starts execution JavaScript pushes the whole program as global context into a stack which is known
+        as Call Stack and continues execution. Whenever JavaScript executes a new context and just follows the same
+        process and pushes to the stack. When the context finishes, JavaScript just pops the top of the stack
+        accordingly.</p>
+    <br>
+    <h2>Applications</h2>
+    <p>We mainly use JavaScript to create:</p>
+    <ul>
+        <li>Websites</li>
+        <li>Web applications</li>
+        <li>Server-side applications using Node.js</li>
+    </ul>
+    <p>but JavaScript is not limited to these things, and it can also be used to:</p>
+    <ul>
+        <li>Create mobile applications using tools like React Native.</li>
+        <li>Create programs for microcontrollers and the internet of things.</li>
+        <li>Create smartwatch applications.</li>
+    </ul>
+    <br>
+    <h2>Syntax</h2>
+    <p>JavaScript does not consider white space meaningful.</p>
+    <p>JavaScript is case sensitive.</p>
+    <p>We define as literal a value that is written in the source code.</p>
+    <p>JavaScript identifiers can contains a letter, the dollar sign $, an underscore _, and digits.
+    </p>
+    <p>Comments in JavaScript uses //.</p>
+    <p>Terminatory operator (semi-colons) is optional in JavaScript.</p>
+    <p>It is not Type sensitive language.</p>
+    <p>Primitives types: Numbers, Strings, Booleans, Symbols, BigInt, Objects, Null and Undefinded.</p>
+
+    <script src="./Basic-Interviw-Questions(125).js"></script>
+</body>
+
+</html>
